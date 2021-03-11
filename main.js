@@ -8,7 +8,7 @@ let mainWindow
 
 let tray = null
 app.on('ready', () => {
-  tray = new Tray('/home/conta/workspace/hovancik/stretchly/stretchly_128x128.png')
+  tray = new Tray('tray.png')
   const contextMenu = Menu.buildFromTemplate([
     { label: 'Item1', type: 'radio' },
     { label: 'Item2', type: 'radio' },
